@@ -8,6 +8,10 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface GameScene : SKScene
+@interface GameScene : SKScene{
+    CGPoint lastTouchLocation;
+}
+
+@property (assign, nonatomic) CGPoint mapOffset;
 
 @end
